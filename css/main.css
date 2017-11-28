@@ -30,7 +30,8 @@ body {
 
 .index .first-screen {
     position: relative;
-    background: url("../imgs/big_bg01.jpg") no-repeat center fixed;
+    background: url("../imgs/big_bg01.jpg") no-repeat center center;
+    background-attachment: fixed;
 }
 
 .index .first-screen .logo-wrap {
