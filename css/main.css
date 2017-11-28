@@ -1,0 +1,479 @@
+body {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carousel-control {
+    color: #02abbf;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control:focus, .carousel-control:hover {
+    color: #03a3b6;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    max-width: none;
+    width: 100%;
+}
+
+.index .first-screen {
+    position: relative;
+    background: url("../imgs/big_bg01.jpg") no-repeat center fixed;
+}
+
+.index .first-screen .logo-wrap {
+    height: 125px;
+    background: rgba(76, 76, 76, .3) url("../imgs/logo.png") no-repeat 30px center;
+}
+
+.index .first-screen .text-wrap {
+    font-size: 28px;
+    color: #fff;
+    background-color: rgba(8, 165, 179, .5);
+    text-align: center;
+    height: 220px;
+    border-radius: 10px;
+    line-height: 220px;
+    margin-top: 35%;
+}
+
+.index .second-screen {
+    background-color: #fafafa;
+    padding: 70px 0 65px 0;
+}
+
+.index .second-screen .bg-logo-wrap > img {
+    height: 128px;
+    display: block;
+    margin: 0 auto 70px auto;
+}
+
+.index .second-screen .carousel-text-wrap {
+    padding-top: 148px;
+    text-align: right;
+}
+
+.index .second-screen .carousel-text-wrap h3 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.index .second-screen .carousel-text-wrap p {
+    font-size: 16px;
+    margin: 10px 0 15px 0;
+    color: #09b1c0;
+}
+
+.index .second-screen .slogan-text {
+    font-size: 28px;
+    padding-top: 40px;
+}
+
+.index .second-screen .text-item {
+    margin-top: 30px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.index .second-screen .text-item h3 {
+    font-size: 28px;
+    color: #fff;
+    background-color: #65cbd7;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.index .second-screen .text-item > div {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.index .third-screen {
+    background: #edf9fa url("../imgs/img03.png") no-repeat center center;
+    padding: 80px 0 55px 0;
+}
+
+.index .third-screen h3 {
+    font-size: 30px;
+    margin: 0 0 65px 0;
+    text-align: center;
+}
+
+.index .third-screen p {
+    font-size: 24px;
+    margin-bottom: 0;
+    line-height: 56px;
+}
+
+.index .four-screen {
+    background-color: #fafafa;
+    padding: 80px 0 55px 0;
+}
+
+.index .four-screen h3 {
+    font-size: 30px;
+    margin: 0 0 65px 0;
+    text-align: center;
+}
+
+.index .four-screen p {
+    font-size: 24px;
+    margin-bottom: 0;
+    line-height: 56px;
+}
+
+.index .four-screen .img-box {
+    padding-top: 60px;
+}
+
+.index .four-screen .img-box .img-div {
+    padding: 0 15px;
+    margin-bottom: 25px;
+}
+
+.index .four-screen .img-box .img-div > img {
+    display: block;
+    width: 100%;
+}
+
+.index .five-screen {
+    background-color: #fafafa;
+    padding: 0px 0 55px 0;
+}
+
+.index .five-screen h3 {
+    font-size: 30px;
+    margin: 0 0 25px 0;
+    text-align: center;
+}
+
+.index .five-screen .img-box {
+    padding-top: 60px;
+}
+
+.index .five-screen .img-box .img-div {
+    padding: 0 15px;
+}
+
+.index .five-screen .img-box .img-div > img {
+    display: block;
+    width: 100%;
+}
+
+.index .six-screen {
+    background-color: #fafafa;
+    padding: 30px 0 55px 0;
+}
+
+.index .six-screen h3 {
+    font-size: 30px;
+    margin: 0 0 85px 0;
+    text-align: center;
+}
+
+.index .six-screen .text-item:last-child {
+    margin-top: 60px;
+}
+
+.index .six-screen .text-item.special-text-item:last-child {
+    margin-top: 111px;
+}
+
+.index .six-screen .text-item h4 {
+    margin: 0 0 18px 0;
+    font-size: 24px;
+    color: #555;
+}
+
+.index .six-screen .text-item p {
+    font-size: 24px;
+    color: #555;
+    margin: 0 0 18px 0;
+}
+
+.index .six-screen .map-box {
+    padding-top: 55px;
+}
+
+.index .six-screen .img-box > img, .index .six-screen .map-box > img {
+    display: block;
+    width: 100%;
+}
+.index .footer{
+    height:85px;
+    line-height: 85px;
+    text-align: center;
+    font-size:14px;
+    color:#4c4c4c;
+    background-color: #02abbf;
+}
+
+@media screen and (max-width: 1199px) {
+    .index .second-screen {
+        padding-top: 55px;
+    }
+
+    .index .second-screen .bg-logo-wrap > img {
+        height: 108px;
+        margin: 0 auto 55px auto;
+    }
+
+    .index .second-screen .carousel-text-wrap {
+        padding-top: 120px;
+    }
+
+    .index .second-screen .carousel-text-wrap h3 {
+        font-size: 24px;
+    }
+
+    .index .second-screen .carousel-text-wrap p {
+        font-size: 14px;
+        margin: 10px 0 15px 0;
+        color: #09b1c0;
+    }
+
+    .index .second-screen .slogan-text {
+        font-size: 24px;
+        padding-top: 30px;
+    }
+
+    .index .second-screen .text-item {
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    .index .six-screen .text-item.special-text-item:last-child {
+        margin-top: 106px;
+    }
+
+    .index .second-screen .text-item h3 {
+        font-size: 24px;
+    }
+
+    .index .second-screen .text-item > div {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .index .six-screen .text-item h4 {
+        font-size: 20px;
+    }
+
+    .index .six-screen .text-item p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .index .first-screen .text-wrap {
+        height: 180px;
+        line-height: 180px;
+    }
+
+    .index .second-screen {
+        padding-top: 40px;
+    }
+
+    .index .second-screen .bg-logo-wrap > img {
+        height: 88px;
+        margin: 0 auto 40px auto;
+    }
+
+    .index .second-screen .carousel-text-wrap {
+        padding-top: 80px;
+    }
+
+    .index .second-screen .carousel-text-wrap h3 {
+        font-size: 24px;
+    }
+
+    .index .second-screen .carousel-text-wrap p {
+        font-size: 12px;
+        margin: 10px 0 15px 0;
+        color: #09b1c0;
+    }
+
+    .index .second-screen .slogan-text {
+        font-size: 24px;
+        padding-top: 30px;
+    }
+
+    .index .second-screen .text-item {
+        margin-top: 20px;
+        padding: 0 8px;
+    }
+
+    .index .six-screen .text-item.special-text-item:last-child {
+        margin-top: 100px;
+    }
+
+    .index .second-screen .text-item h3 {
+        font-size: 20px;
+    }
+
+    .index .second-screen .text-item > div {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .index .six-screen .text-item h4 {
+        font-size: 16px;
+    }
+
+    .index .six-screen .text-item p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .index .second-screen {
+        padding-top: 25px;
+    }
+
+    .index .second-screen .bg-logo-wrap > img {
+        height: 68px;
+        margin: 0 auto 25px auto;
+    }
+
+    .index .second-screen .carousel-box {
+        padding: 0 10px;
+    }
+
+    .index .second-screen .carousel-text-wrap {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .index .second-screen {
+        padding-bottom: 25px;
+    }
+
+    .index .second-screen .slogan-text {
+        font-size: 18px;
+        padding: 20px 0 0 10px;
+    }
+
+    .index .second-screen .text-item {
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .index .second-screen .text-item h3 {
+        font-size: 14px;
+    }
+
+    .index .second-screen .text-item > div {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .index .third-screen {
+        padding: 20px 0 25px 0;
+    }
+
+    .index .third-screen h3 {
+        margin: 0 0 15px 0;
+        font-size: 24px;
+    }
+
+    .index .third-screen p {
+        padding: 0 10px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .index .four-screen {
+        padding: 20px 0 5px 0;
+    }
+
+    .index .four-screen .img-box {
+        padding-top: 20px;
+    }
+
+    .index .four-screen .img-box .img-div {
+        padding: 0 10px;
+        margin-bottom: 15px;
+    }
+
+    .index .four-screen h3 {
+        margin: 0 0 15px 0;
+        font-size: 24px;
+    }
+
+    .index .four-screen p {
+        padding: 0 10px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .index .five-screen {
+        padding: 0 0 0 0;
+    }
+
+    .index .five-screen .img-box {
+        padding-top: 20px;
+    }
+
+    .index .five-screen .img-box .img-div {
+        padding: 0 10px;
+        margin-bottom: 35px;
+    }
+
+    .index .five-screen h3 {
+        margin: 0 0 5px 0;
+        font-size: 24px;
+    }
+
+    .index .six-screen {
+        padding: 0 0 25px 0;
+    }
+
+    .index .six-screen .img-box {
+        padding: 10px 10px 0 10px;
+    }
+
+    .index .six-screen h3 {
+        margin: 0 0 15px 0;
+        font-size: 24px;
+    }
+
+    .index .six-screen .text-item h4 {
+        margin: 0 0 18px 0;
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .index .six-screen .text-item p {
+        font-size: 18px;
+        margin: 0 0 18px 0;
+        padding: 0 10px;
+    }
+
+    .index .six-screen .text-item:last-child {
+        margin-top: 35px;
+    }
+
+    .index .six-screen .text-item.special-text-item:last-child {
+        margin-top: 35px;
+    }
+    .index .six-screen .map-box{
+        padding: 25px 10px 0 10px;
+    }
+    .index .footer{
+        height:55px;
+        line-height: 55px;
+        font-size:12px;
+    }
+}
