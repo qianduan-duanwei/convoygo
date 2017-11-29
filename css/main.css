@@ -211,12 +211,13 @@ body {
     display: block;
     width: 100%;
 }
-.index .footer{
-    height:85px;
+
+.index .footer {
+    height: 85px;
     line-height: 85px;
     text-align: center;
-    font-size:14px;
-    color:#4c4c4c;
+    font-size: 14px;
+    color: #4c4c4c;
     background-color: #02abbf;
 }
 
@@ -338,6 +339,11 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+    .index .first-screen .logo-wrap {
+        height: 125px;
+        background:url("../imgs/logo.png") no-repeat 30px center;
+    }
+
     .index .second-screen {
         padding-top: 25px;
     }
@@ -468,12 +474,14 @@ body {
     .index .six-screen .text-item.special-text-item:last-child {
         margin-top: 35px;
     }
-    .index .six-screen .map-box{
+
+    .index .six-screen .map-box {
         padding: 25px 10px 0 10px;
     }
-    .index .footer{
-        height:55px;
+
+    .index .footer {
+        height: 55px;
         line-height: 55px;
-        font-size:12px;
+        font-size: 12px;
     }
 }
