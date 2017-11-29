@@ -35,7 +35,7 @@ body {
 
 .index .first-screen .logo-wrap {
     height: 125px;
-    background: rgba(76, 76, 76, .3) url("../imgs/logo.png") no-repeat 30px center;
+    background: url("../imgs/logo.png") no-repeat 30px center;
 }
 
 .index .first-screen .text-wrap {
@@ -171,6 +171,16 @@ body {
     display: block;
     width: 100%;
 }
+.index .five-screen .img-box .img-div>h4 {
+    text-align: center;
+    font-size:26px;
+    margin: 15px 0 0 0;
+}
+.index .five-screen .img-box .img-div>p {
+    text-align: center;
+    font-size:24px;
+    margin: 15px 0 0 0;
+}
 
 .index .six-screen {
     background-color: #fafafa;
@@ -267,6 +277,12 @@ body {
         margin-top: 10px;
         font-size: 15px;
     }
+    .index .five-screen .img-box .img-div>h4 {
+        font-size:24px;
+    }
+    .index .five-screen .img-box .img-div>p {
+        font-size:22px;
+    }
 
     .index .six-screen .text-item h4 {
         font-size: 20px;
@@ -315,6 +331,12 @@ body {
         margin-top: 20px;
         padding: 0 8px;
     }
+    .index .five-screen .img-box .img-div>h4 {
+        font-size:20px;
+    }
+    .index .five-screen .img-box .img-div>p {
+        font-size:18px;
+    }
 
     .index .six-screen .text-item.special-text-item:last-child {
         margin-top: 100px;
@@ -339,10 +361,6 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-    .index .first-screen .logo-wrap {
-        height: 125px;
-        background:url("../imgs/logo.png") no-repeat 30px center;
-    }
 
     .index .second-screen {
         padding-top: 25px;
