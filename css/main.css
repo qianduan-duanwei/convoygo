@@ -67,18 +67,17 @@ body {
 
 .index .second-screen .carousel-text-wrap h3 {
     font-size: 28px;
-    margin: 0;
-}
-
-.index .second-screen .carousel-text-wrap p {
-    font-size: 16px;
-    margin: 10px 0 15px 0;
-    color: #09b1c0;
+    margin: 28px 0;
 }
 
 .index .second-screen .slogan-text {
     font-size: 28px;
     padding-top: 40px;
+}
+
+.index .second-screen .slogan-text .title {
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 .index .second-screen .text-item {
@@ -171,14 +170,16 @@ body {
     display: block;
     width: 100%;
 }
-.index .five-screen .img-box .img-div>h4 {
+
+.index .five-screen .img-box .img-div > h4 {
     text-align: center;
-    font-size:26px;
+    font-size: 26px;
     margin: 15px 0 0 0;
 }
-.index .five-screen .img-box .img-div>p {
+
+.index .five-screen .img-box .img-div > p {
     text-align: center;
-    font-size:24px;
+    font-size: 24px;
     margin: 15px 0 0 0;
 }
 
@@ -242,22 +243,20 @@ body {
     }
 
     .index .second-screen .carousel-text-wrap {
-        padding-top: 120px;
+        padding-top: 114px;
     }
 
     .index .second-screen .carousel-text-wrap h3 {
         font-size: 24px;
     }
 
-    .index .second-screen .carousel-text-wrap p {
-        font-size: 14px;
-        margin: 10px 0 15px 0;
-        color: #09b1c0;
-    }
-
     .index .second-screen .slogan-text {
         font-size: 24px;
         padding-top: 30px;
+    }
+
+    .index .second-screen .slogan-text .title {
+        font-size: 26px;
     }
 
     .index .second-screen .text-item {
@@ -277,11 +276,13 @@ body {
         margin-top: 10px;
         font-size: 15px;
     }
-    .index .five-screen .img-box .img-div>h4 {
-        font-size:24px;
+
+    .index .five-screen .img-box .img-div > h4 {
+        font-size: 24px;
     }
-    .index .five-screen .img-box .img-div>p {
-        font-size:22px;
+
+    .index .five-screen .img-box .img-div > p {
+        font-size: 22px;
     }
 
     .index .six-screen .text-item h4 {
@@ -309,17 +310,11 @@ body {
     }
 
     .index .second-screen .carousel-text-wrap {
-        padding-top: 80px;
+        padding-top: 71px;
     }
 
     .index .second-screen .carousel-text-wrap h3 {
         font-size: 24px;
-    }
-
-    .index .second-screen .carousel-text-wrap p {
-        font-size: 12px;
-        margin: 10px 0 15px 0;
-        color: #09b1c0;
     }
 
     .index .second-screen .slogan-text {
@@ -327,15 +322,21 @@ body {
         padding-top: 30px;
     }
 
+    .index .second-screen .slogan-text .title {
+        font-size: 26px;
+    }
+
     .index .second-screen .text-item {
         margin-top: 20px;
         padding: 0 8px;
     }
-    .index .five-screen .img-box .img-div>h4 {
-        font-size:20px;
+
+    .index .five-screen .img-box .img-div > h4 {
+        font-size: 18px;
     }
-    .index .five-screen .img-box .img-div>p {
-        font-size:18px;
+
+    .index .five-screen .img-box .img-div > p {
+        font-size: 16px;
     }
 
     .index .six-screen .text-item.special-text-item:last-child {
@@ -380,27 +381,36 @@ body {
         text-align: center;
     }
 
+    .index .second-screen .carousel-text-wrap h3 {
+        font-size: 18px;
+        margin: 15px;
+    }
+
     .index .second-screen {
         padding-bottom: 25px;
     }
 
     .index .second-screen .slogan-text {
         font-size: 18px;
-        padding: 20px 0 0 10px;
+        padding: 20px 0 0 24px;
+    }
+
+    .index .second-screen .slogan-text .title {
+        font-size: 24px;
     }
 
     .index .second-screen .text-item {
         margin-top: 20px;
-        padding: 0 20px;
+        padding: 0 10px;
     }
 
     .index .second-screen .text-item h3 {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .index .second-screen .text-item > div {
         margin-top: 10px;
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .index .third-screen {
@@ -413,7 +423,7 @@ body {
     }
 
     .index .third-screen p {
-        padding: 0 10px;
+        padding: 0 24px;
         font-size: 18px;
         line-height: 36px;
     }
@@ -437,7 +447,7 @@ body {
     }
 
     .index .four-screen p {
-        padding: 0 10px;
+        padding: 0 24px;
         font-size: 18px;
         line-height: 36px;
     }
@@ -476,13 +486,13 @@ body {
     .index .six-screen .text-item h4 {
         margin: 0 0 18px 0;
         font-size: 18px;
-        padding: 0 10px;
+        padding: 0 24px;
     }
 
     .index .six-screen .text-item p {
         font-size: 18px;
         margin: 0 0 18px 0;
-        padding: 0 10px;
+        padding: 0 24px;
     }
 
     .index .six-screen .text-item:last-child {
@@ -501,5 +511,12 @@ body {
         height: 55px;
         line-height: 55px;
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .index .first-screen {
+        background: url("../imgs/big_bg02.jpg") no-repeat;
+        background-size:cover
     }
 }
