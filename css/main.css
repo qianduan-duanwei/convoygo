@@ -484,22 +484,23 @@ body {
     }
 
     .index .six-screen .text-item h4 {
-        margin: 0 0 18px 0;
+        margin: 0 0 15px 0;
         font-size: 18px;
         padding: 0 24px;
     }
 
     .index .six-screen .text-item p {
         font-size: 18px;
-        margin: 0 0 18px 0;
+        margin: 0 0 15px 0;
         padding: 0 24px;
     }
-
-    .index .six-screen .text-item:last-child {
+    .index .six-screen .text-item:last-child{
         margin-top: 35px;
     }
-
-    .index .six-screen .text-item.special-text-item:last-child {
+    .index .six-screen .tel-text-item{
+        margin-top: 35px;
+    }
+    .index .six-screen .text-item.special-text-item:last-child{
         margin-top: 35px;
     }
 
